@@ -1,5 +1,5 @@
 module "minikube" {
-  source = "scholzj/minikube/aws"
+  source = "ming-wu/minikube/aws"
 
   aws_region          = "${var.aws_region}"
   cluster_name        = "${var.cluster_name}"
