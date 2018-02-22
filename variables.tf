@@ -1,6 +1,6 @@
 variable "aws_region" {
     description = "Region where Cloud Formation is created"
-    default     = "eu-central-1"
+    default     = "us-east-1"
 }
 
 variable "cluster_name" {
@@ -19,7 +19,7 @@ variable "addons" {
 
 variable "aws_instance_type" {
     description = "Type of instance"
-    default     = "t2.medium"
+    default     = "t2.2xlarge"
 }
 
 variable "aws_subnet_id" {
